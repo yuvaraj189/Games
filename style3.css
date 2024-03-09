@@ -1,0 +1,28 @@
+body {
+    color: white;
+    background-color: black;
+}
+
+input {
+    margin-top: 1em;
+    font-size: 2em;
+    text-align: center;
+    width: 50vb;
+    border-radius: 5px;
+
+}
+
+button {
+    margin-top: 1.5em;
+    max-width: 400px;
+    height: 50px;
+    font-size: 1.5em;
+    background-color: rgb(82, 82, 190);
+    border-radius: 5px;
+}
+
+h1,
+h2,
+h4 {
+    margin-top: 1.5em;
+}

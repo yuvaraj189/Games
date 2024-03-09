@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #159895;
+    color: #fff;
+}
+
+.game {
+    background: none;
+
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    background: none;
+    position: absolute;
+    top: 0;
+    font-size: 4rem;
+    z-index: 2;
+}
+
+.score {
+    background: none;
+    display: flex;
+    width: 30vw;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 170px;
+    z-index: 1;
+}
+
+.p-count,
+.c-count {
+    background: none;
+
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.options {
+    background: none;
+    display: flex;
+    width: 50vw;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.rock,
+.paper,
+.scissor {
+    background: none;
+    padding-left: 0;
+    padding: 4em 10em 8em;
+    border-radius: 10px;
+    outline: none;
+    border-color: green;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.move {
+    background: none;
+
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.reload {
+    background: none;
+
+    display: none;
+    margin-top: 2rem;
+    padding: 1rem;
+    background: green;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.computerscore {
+    background: none;
+
+}

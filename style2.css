@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    background-image: url("game1.avif");
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.cont {
+    display: flex;
+}
+
+.container {
+    margin: 10em 5em;
+    padding: 0;
+    transition: 0.25s;
+}
+
+img {
+    padding: 1em 1em 0 1em;
+    margin-bottom: 0;
+}
+
+.container:hover {
+    transform: translateY(-15px);
+
+}
+
+.container1 {
+    margin: 10em 5em;
+    padding: 0;
+    transition: 0.25s;
+}
+
+img {
+    padding: 1em 1em 0 1em;
+    margin-bottom: 0;
+}
+
+.container1:hover {
+    transform: translateY(-15px);
+
+}
+
+.container2 {
+    margin: 10em 5em;
+    padding: 0;
+    transition: 0.25s;
+}
+
+img {
+    padding: 1em 1em 0 1em;
+    margin-bottom: 0;
+}
+
+.container2:hover {
+    transform: translateY(-15px);
+
+}
